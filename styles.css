@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'Embedded Monocraft';
+    src: url(./Monocraft.ttf) format('truetype'), url(./Monocraft.otf) format('opentype');
+}
+
 body {
     background-color: #808080;
-    font-family: Monocraft, Arial, sans-serif;
+    font-family: Monocraft, 'Embedded Monocraft', Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
