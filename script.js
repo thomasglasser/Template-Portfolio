@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function toggleTheme() {
         body.classList.toggle('dark-theme');
         if (body.classList.contains('dark-theme')) {
-            themeToggle.textContent = '☀️'; // TODO: change to better sun emoji
+            themeToggle.textContent = '☀️';
         }
         else {
             themeToggle.textContent = '🌙';
